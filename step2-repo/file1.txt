@@ -1,0 +1,20 @@
+File 1 content
+Added line
+many more coming
+and more
+and more
+
+yeah
+Second line in file1
+
+Feature branch line
+Testing push from macOS
+
+
+echo "This is file1" >> step2-repo/file1.txt
+echo "This is file2" >> step2-repo/file2.txt
+git add step2-repo/file2.txt
+git add step2-repo/file1.txt
+git commit -m "Add file1.txt and file2.txt inside step2-repo"
+git push
+This is file1
